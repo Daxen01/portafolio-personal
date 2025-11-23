@@ -1,18 +1,15 @@
-/* app/globals.css - Corregido */
+/* app/globals.css */
 
-@import "tailwindcss/base"; /* Reemplaza el @import "tailwindcss" si es tu caso */
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+/* --- 1. DIRECTIVAS ESTÁNDAR DE TAILWIND --- */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-/* O, si usas la sintaxis moderna de Next/Tailwind: */
-/* @tailwind base; */
-/* @tailwind components; */
-/* @tailwind utilities; */
-
-
+/* --- 2. VARIABLES CSS (Next.js/Tema) --- */
 :root {
   --background: #ffffff;
-  --foreground: #171717; /* Asumo que es el valor que quieres: #171717 */
+  --foreground: #171717;
+  /* Eliminé las variables de fuente --font-sans, --font-mono, etc. para evitar errores si no están definidas */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,6 +19,7 @@
   }
 }
 
+/* --- 3. ESTILOS GLOBALES --- */
 body {
   background: var(--background);
   color: var(--foreground);
