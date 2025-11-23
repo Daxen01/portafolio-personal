@@ -72,12 +72,12 @@ export default function PortfolioPersonalizado() {
 
   // 🟢 ENLACES DE CONTACTO (REEMPLAZA LAS URLS AQUÍ)
   const socialLinks = {
-    github: "https://github.com/Daxen01", // ⚠️ REEMPLAZAR
-    linkedin: "https://linkedin.com/in/josé-ignacio-morenos-rojas-188380274", // ⚠️ REEMPLAZAR
+    github: "https://github.com/Daxen01", 
+    linkedin: "https://linkedin.com/in/josé-ignacio-morenos-rojas-188380274", 
     emailAddress: "jose.ignacio.moreno.rojas@gmail.com", 
     emailSubject: "Consulta Laboral - Portafolio de José", // 🟢 ASUNTO PREDETERMINADO
     emailBody: "Hola José Ignacio,\n\nVi tu portafolio y me gustaría conversar sobre una oportunidad.\n\nSaludos.", // 🟢 CUERPO PREDETERMINADO
-    whatsappNumber: "569XXXXXXXX", // ⚠️ REEMPLAZAR (Ej: 56912345678)
+    whatsappNumber: "56958282399", 
     whatsappMessage: "Hola José, vi tu portafolio y me gustaría conversar sobre una oportunidad."
   };
   
